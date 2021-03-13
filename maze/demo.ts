@@ -1,6 +1,6 @@
 import MazeDFS from "./MazeDFS"
 
-export const mazeDFS = () => {
+export const mazeDFS = (): void => {
     let mazeDFS = new MazeDFS();
     //初始化
     mazeDFS.init(10, 10);
@@ -8,7 +8,7 @@ export const mazeDFS = () => {
     let result = mazeDFS.generateMaze();
     //获取迷宫地图
     let mazeMap = result.getMaze();
-    
+
     console.log(mazeMap);
 }
 
