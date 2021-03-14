@@ -21,3 +21,5 @@ export const astar = (): void => {
     
     console.log(path)
 }
+
+astar();

@@ -11,4 +11,5 @@ export const mazeDFS = (): void => {
 
     console.log(mazeMap);
 }
-mazeDFS()
+
+mazeDFS();
